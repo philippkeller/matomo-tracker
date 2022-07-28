@@ -76,7 +76,7 @@ A value can be passed for events:
 
 ```dart
 MatomoTracker.instance.trackEvent(
-    name: 'eventName',
+    eventCategory: 'eventCategory',
     action: 'eventAction',
     eventValue: 18,
 );
